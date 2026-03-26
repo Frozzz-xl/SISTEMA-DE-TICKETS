@@ -71,3 +71,64 @@ button {
 button:hover {
     background-color: #0056b3;
 }
+
+/* =========================================
+   ESTILOS PARA LA PÁGINA DE GRACIAS
+   ========================================= */
+
+.success-card {
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+/* Círculo verde con el check */
+.check-icon {
+    width: 80px;
+    height: 80px;
+    background-color: #e8f5e9;
+    color: #28a745;
+    font-size: 45px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin: 0 auto 20px auto;
+}
+
+.success-card h2 {
+    color: #333;
+    margin-bottom: 15px;
+    font-size: 24px;
+}
+
+.success-card p {
+    color: #555;
+    font-size: 15px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+/* Botón adaptado al estilo de tu formulario */
+.btn-volver {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    background-color: #007BFF;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    box-sizing: border-box;
+}
+
+.btn-volver:hover {
+    background-color: #0056b3;
+}
