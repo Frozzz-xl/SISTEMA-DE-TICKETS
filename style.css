@@ -37,7 +37,7 @@ label {
 
 input[type="text"],
 input[type="email"],
-textarea {
+textarea, select {
     width: 100%;
     padding: 10px;
     margin-bottom: 20px;
@@ -46,9 +46,10 @@ textarea {
     box-sizing: border-box;
     font-family: inherit;
     font-size: 14px;
+    background-color: white;
 }
 
-input:focus, textarea:focus {
+input:focus, textarea:focus, select:focus {
     outline: none;
     border-color: #007BFF;
     box-shadow: 0 0 5px rgba(0, 123, 255, 0.3);
