@@ -20,7 +20,7 @@
             <label for="nombre">Tu Nombre:</label>
             <input type="text" id="nombre" name="Nombre" placeholder="Ej: Juan Pérez" required>
         </div>
-
+        
         <div>
             <label for="area">Área:</label>
             <select id="area" name="Area" required>
@@ -32,15 +32,28 @@
                 <option value="Gerencia">Gerencia</option>
             </select>
         </div>
-        
+
+        <div>
+            <label for="tipo_problema">Tipo de problema:</label>
+            <select id="tipo_problema" name="Tipo_de_problema" required>
+                <option value="" disabled selected>Selecciona el tipo de problema...</option>
+                <option value="Hardware">Hardware</option>
+                <option value="Software">Software</option>
+                <option value="Red">Red</option>
+                <option value="Equipos corporativos">Equipos corporativos</option>
+            </select>
+        </div>
+
         <div>
             <label for="asunto">Asunto del Ticket:</label>
             <input type="text" id="asunto" name="Asunto" placeholder="Resumen del problema" required>
         </div>
+        <br>
         
         <button type="submit" id="submitBtn">Enviar Ticket</button>
     </form>
 
     <script src="js/app.js"></script>
 </body>
+</html>
 </html>
